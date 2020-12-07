@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,16 +7,41 @@
     <title>Agenda de contatos</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 
 
 </head>
 
-<body>
-    <h1>Olá mundo</h1>
+<body class="bg-transparent">
+
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-5">
+            <div class="col-12 col-sm-6 col-md-2">
+                <img src="img/icon.png" alt="Agenda" class="img-fluid">
+                <h4 class="text-info text-center mt-3">
+                    Agenda de Contato
+                </h4>
+                <form action="">
+                    <div class="form-group">
+                        <label>Login</label>
+                        <input type="text" name="LOGIN" id="LOGIN" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Senha</label>
+                        <input type="text" name="SENHA" id="SENHA" class="form-control">
+                    </div>
+                    <div class="form-group row justify-content-end">
+                        <div class="col-12 col-sm-8 col-md-6">
+                            <button class="btn btn-success btn-block">Entrar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-
 </body>
 
 </html>
